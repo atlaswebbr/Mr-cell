@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MR Cell Alagoinhas | Loja de Celulares &amp; Assistência Técnica</title>
+  <meta name="description" content="MR Cell Alagoinhas em Alagoinhas Velha. Aparelhos lacrados a partir de R$ 699, parcelamento no boleto em até 18x e assistência técnica especializada." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+          },
+          colors: {
+            tech: {
+              bg: '#0B0F14',
+              card: '#131A22',
+              border: '#222E3C',
+              green: '#22C55E',
+              lime: '#A3E635',
+              yellow: '#FACC15'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-tech-lime selection:text-slate-950">
+
+  <!-- Barra Superior -->
+  <div class="bg-tech-bg text-slate-200 text-xs sm:text-sm py-2 px-4 border-b border-tech-border">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2 font-semibold">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-tech-lime animate-pulse"></span>
+        <span>Celular no BOLETO em até 18x • Aparelhos Lacrados a partir de R$ 699</span>
+      </div>
+      <span class="text-tech-yellow font-bold">📍 Alagoinhas Velha (Próx. ao Colégio Objetiva Ramile)</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-tech-bg/95 backdrop-blur border-b border-tech-border text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+      <a href="#inicio" class="flex items-center gap-3">
+        <img src="logo-mrcell.png" alt="Logo MR Cell Alagoinhas" class="w-12 h-12 rounded-full object-cover border-2 border-tech-yellow bg-white shadow-md" />
+        <div>
+          <span class="block font-display font-bold text-xl tracking-tight text-white leading-none">MR Cell <span class="text-tech-lime">Alagoinhas</span></span>
+          <span class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mt-1">Smartphones &amp; Assistência Técnica</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-300">
+        <a href="#vitrine" class="hover:text-tech-lime transition">Vitrine Lacrados</a>
+        <a href="#boleto" class="hover:text-tech-lime transition">Boleto 18x</a>
+        <a href="#assistencia" class="hover:text-tech-lime transition">Assistência Técnica</a>
+        <a href="#loja" class="hover:text-tech-lime transition">Endereço</a>
+      </nav>
+
+      <a href="#boleto" class="inline-flex items-center gap-2 bg-tech-yellow hover:bg-amber-300 text-slate-950 text-sm font-extrabold px-4 py-2.5 rounded-xl shadow transition">
+        <span>Simular Boleto 18x</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="relative bg-tech-bg text-white overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,197,94,0.16),transparent_50%)]"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 py-14 lg:py-20 grid lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 bg-tech-green/15 border border-tech-green/40 text-tech-lime px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-bold">
+          <span>📱 Loja Física em Alagoinhas Velha • Garantia &amp; Nota</span>
+        </div>
+
+        <h1 class="font-display text-4xl sm:text-6xl font-bold leading-[1.06] tracking-tight">
+          Tecnologia que cabe no seu bolso: <span class="text-tech-yellow">até 18x no boleto</span> ou conserto na hora.
+        </h1>
+
+        <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+          Aparelhos novos e lacrados (Xiaomi, Poco, Redmi, Motorola e Samsung) a partir de <strong class="text-white">R$ 699</strong>, além de bancada técnica especializada para deixar seu celular novo de novo.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3.5 pt-1">
+          <a href="#vitrine" class="inline-flex items-center justify-center gap-2 bg-tech-lime hover:bg-lime-300 text-slate-950 font-extrabold px-6 py-4 rounded-2xl shadow-lg transition text-base">
+            <span>Ver Modelos em Destaque</span>
+            <span>↓</span>
+          </a>
+          <a href="#assistencia" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-4 rounded-2xl border border-white/20 transition text-base">
+            <span>🛠️ Orçar Conserto do Celular</span>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 pt-5 border-t border-tech-border max-w-lg">
+          <div>
+            <p class="font-display text-2xl sm:text-3xl font-bold text-tech-yellow">R$ 699</p>
+            <p class="text-xs text-slate-400">Lacrados a partir de</p>
+          </div>
+          <div>
+            <p class="font-display text-2xl sm:text-3xl font-bold text-tech-lime">Até 18x</p>
+            <p class="text-xs text-slate-400">No boleto bancário</p>
+          </div>
+          <div>
+            <p class="font-display text-2xl sm:text-3xl font-bold text-white">+12 mil</p>
+            <p class="text-xs text-slate-400">Clientes acompanhando</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Destaque Boleto & Troca -->
+      <div class="lg:col-span-5">
+        <div class="bg-tech-card border border-tech-border rounded-3xl p-6 sm:p-8 shadow-2xl space-y-5">
+          <div class="flex items-center justify-between">
+            <span class="bg-tech-yellow text-slate-950 text-xs font-extrabold px-3 py-1 rounded-full uppercase">Condição Especial</span>
+            <span class="text-xs font-bold text-tech-lime">● Análise Rápida</span>
+          </div>
+
+          <h2 class="font-display text-2xl font-bold text-white">Saiu de celular novo sem precisar de cartão!</h2>
+          <p class="text-sm text-slate-300 leading-relaxed">
+            Na MR Cell você parcela seu smartphone lacrado em até <strong>18x no boleto</strong> (sujeito à análise na hora) com entrega rápida em Alagoinhas.
+          </p>
+
+          <div class="space-y-2.5 text-xs sm:text-sm text-slate-200">
+            <div class="flex items-center gap-2.5 bg-tech-bg/80 p-3 rounded-xl border border-tech-border">
+              <span class="text-tech-lime font-bold">✓</span>
+              <span>Linha Poco, Redmi, Note, Realme e Motorola</span>
+            </div>
+            <div class="flex items-center gap-2.5 bg-tech-bg/80 p-3 rounded-xl border border-tech-border">
+              <span class="text-tech-lime font-bold">✓</span>
+              <span>Aparelhos 100% lacrados com garantia</span>
+            </div>
+            <div class="flex items-center gap-2.5 bg-tech-bg/80 p-3 rounded-xl border border-tech-border">
+              <span class="text-tech-lime font-bold">✓</span>
+              <span>Película e capa disponíveis na retirada</span>
+            </div>
+          </div>
+
+          <a href="#boleto" class="block w-full text-center bg-tech-yellow hover:bg-amber-300 text-slate-950 font-extrabold py-3.5 rounded-xl text-sm transition">
+            Fazer Pré-Análise Agora →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitrine de Smartphones -->
+  <section id="vitrine" class="py-16 sm:py-20 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+      <div>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-700 bg-emerald-100 px-3 py-1 rounded-full">Estoque Atualizado</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-slate-900 mt-2">Smartphones Lacrados em Destaque</h2>
+      </div>
+      <p class="text-sm text-slate-600 max-w-md">Clique no modelo desejado para consultar o valor à vista ou as parcelas no boleto.</p>
+    </div>
+
+    <div id="gridCelulares" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Renderizado via JS -->
+    </div>
+  </section>
+
+  <!-- Formulário Boleto 18x + Assistência Técnica -->
+  <section id="boleto" class="py-16 bg-tech-bg text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-8">
+      <!-- Bloco 1: Simulação Boleto 18x -->
+      <div class="bg-tech-card border border-tech-border rounded-3xl p-6 sm:p-8">
+        <span class="bg-tech-yellow text-slate-950 text-xs font-extrabold px-3 py-1 rounded-full uppercase">Parcelamento Facilitado</span>
+        <h3 class="font-display text-2xl sm:text-3xl font-bold mt-3">Solicitar Cotação no Boleto (até 18x)</h3>
+        <p class="text-sm text-slate-400 mt-1 mb-6">Informe o modelo que você procura e envie direto para nossa equipe comercial.</p>
+
+        <form id="formBoleto" class="space-y-4 text-slate-800">
+          <div>
+            <label class="block text-xs font-bold uppercase text-slate-300 mb-1">Seu Nome</label>
+            <input type="text" id="boletoNome" required placeholder="Ex.: Lucas Ferreira" class="w-full px-4 py-3 rounded-xl bg-white text-sm font-medium outline-none focus:ring-2 focus:ring-tech-yellow" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-slate-300 mb-1">Modelo de Interesse</label>
+            <input type="text" id="boletoModelo" required placeholder="Ex.: Poco C75 / Redmi Note / Moto G" class="w-full px-4 py-3 rounded-xl bg-white text-sm font-medium outline-none focus:ring-2 focus:ring-tech-yellow" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-slate-300 mb-1">Forma de Pagamento Pretendida</label>
+            <select id="boletoForma" class="w-full px-4 py-3 rounded-xl bg-white text-sm font-medium outline-none focus:ring-2 focus:ring-tech-yellow">
+              <option value="Boleto Parcelado (até 18x)">Boleto Parcelado (até 18x)</option>
+              <option value="À Vista / Pix (Desconto)">À Vista / Pix (Desconto)</option>
+              <option value="Cartão de Crédito">Cartão de Crédito</option>
+            </select>
+          </div>
+          <button type="submit" class="w-full bg-tech-yellow hover:bg-amber-300 text-slate-950 font-extrabold py-3.5 rounded-xl transition text-sm">
+            💬 Consultar Disponibilidade &amp; Parcelas
+          </button>
+        </form>
+      </div>
+
+      <!-- Bloco 2: Assistência Técnica -->
+      <div id="assistencia" class="bg-tech-card border border-tech-border rounded-3xl p-6 sm:p-8">
+        <span class="bg-tech-lime text-slate-950 text-xs font-extrabold px-3 py-1 rounded-full uppercase">Laboratório Próprio</span>
+        <h3 class="font-display text-2xl sm:text-3xl font-bold mt-3">Orçamento de Assistência Técnica</h3>
+        <p class="text-sm text-slate-400 mt-1 mb-6">Consertamos seu celular com peças de qualidade e agilidade em Alagoinhas Velha.</p>
+
+        <form id="formReparo" class="space-y-4 text-slate-800">
+          <div>
+            <label class="block text-xs font-bold uppercase text-slate-300 mb-1">Marca e Modelo do Aparelho</label>
+            <input type="text" id="reparoAparelho" required placeholder="Ex.: Samsung A54 / iPhone 11 / Redmi Note 12" class="w-full px-4 py-3 rounded-xl bg-white text-sm font-medium outline-none focus:ring-2 focus:ring-tech-lime" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-slate-300 mb-1">Problema Apresentado</label>
+            <select id="reparoDefeito" class="w-full px-4 py-3 rounded-xl bg-white text-sm font-medium outline-none focus:ring-2 focus:ring-tech-lime">
+              <option value="Troca de Tela / Display">Troca de Tela / Display Quebrado</option>
+              <option value="Troca de Bateria">Troca de Bateria Viciada</option>
+              <option value="Conector de Carga (Não carrega)">Conector de Carga (Não carrega)</option>
+              <option value="Aparelho Molhado / Não Liga">Aparelho Molhado / Não Liga</option>
+              <option value="Outro Reparo / Avaliação">Outro Reparo / Avaliação</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-slate-300 mb-1">Seu Nome</label>
+            <input type="text" id="reparoNome" required placeholder="Ex.: Fernanda Lima" class="w-full px-4 py-3 rounded-xl bg-white text-sm font-medium outline-none focus:ring-2 focus:ring-tech-lime" />
+          </div>
+          <button type="submit" class="w-full bg-tech-lime hover:bg-lime-300 text-slate-950 font-extrabold py-3.5 rounded-xl transition text-sm">
+            🛠️ Pedir Orçamento do Conserto
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Endereço & Mapa -->
+  <section id="loja" class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid lg:grid-cols-12 gap-8 items-center">
+      <div class="lg:col-span-5 space-y-4">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-700 bg-emerald-100 px-3 py-1 rounded-full">Loja Física</span>
+        <h2 class="font-display text-3xl font-bold text-slate-900">Visite a MR Cell em Alagoinhas Velha</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">
+          Venha testar os aparelhos na mão, fazer sua análise no boleto na hora ou deixar seu smartphone com nossa bancada técnica.
+        </p>
+
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 space-y-2 text-sm">
+          <p class="font-bold text-slate-900">📍 Endereço Oficial</p>
+          <p class="text-slate-600">Avenida José Luís dos Santos, 106 - Alagoinhas Velha, Alagoinhas - BA, CEP 48007-334</p>
+          <p class="text-xs font-semibold text-emerald-700 pt-1">Referência: Próximo ao Colégio Objetiva Ramile</p>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7">
+        <div class="rounded-3xl overflow-hidden shadow-lg border border-slate-200 bg-white h-80">
+          <iframe
+            title="Mapa MR Cell Alagoinhas"
+            src="https://www.google.com/maps?q=Avenida+Jose+Luis+dos+Santos,+106,+Alagoinhas+-+BA&output=embed"
+            class="w-full h-full border-0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-tech-bg text-slate-400 py-10 px-4 text-sm border-t border-tech-border">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <p class="font-display font-bold text-white text-lg">MR Cell Alagoinhas</p>
+        <p class="text-xs text-slate-400 mt-0.5">Av. José Luís dos Santos, 106 - Alagoinhas Velha • @mr.cell_alagoinhas</p>
+      </div>
+      <div class="text-xs text-slate-400 text-center sm:text-right">
+        <p>© 2026 MR Cell Alagoinhas. Todos os direitos reservados.</p>
+        <p class="mt-1">Desenvolvido por <a href="https://atlaswebbr.github.io/Atlas-web-Demostra-es/" target="_blank" rel="noopener" class="text-tech-lime font-bold hover:underline">Atlas Web</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Cole aqui o WhatsApp comercial da MR Cell com DDI+DDD (ex: '5575999999999') quando confirmar com o lojista.
+    // Enquanto estiver vazio, abre o Direct oficial @mr.cell_alagoinhas já com a mensagem pronta ou copiada.
+    const WHATSAPP_MRCELL = '';
+    const INSTAGRAM_MRCELL = 'https://www.instagram.com/mr.cell_alagoinhas/';
+
+    const aparelhos = [
+      { nome: 'Redmi A5 / Entrada Lacrado', preco: 'A partir de R$ 699', tag: 'Oferta Destaque', desc: 'Aparelho novo e lacrado com garantia, ideal para WhatsApp, redes sociais e dia a dia.' },
+      { nome: 'Poco C61 / Poco C75', preco: 'No Boleto até 18x', tag: 'Mais Vendido', desc: 'Tela ampla fluida, bateria de longa duração e ótimo desempenho para aplicativos e jogos.' },
+      { nome: 'Poco C85 / Linha Poco', preco: 'No Boleto até 18x', tag: 'Lançamento', desc: 'Armazenamento generoso, câmera nítida e carregamento rápido com garantia.' },
+      { nome: 'Realme Note 60 / Note Series', preco: 'No Boleto até 18x', tag: 'Custo-Benefício', desc: 'Design fino e resistente com excelente autonomia de bateria e tela brilhante.' },
+      { nome: 'Infinix Hot Series', preco: 'No Boleto até 18x', tag: 'Gamer / Fluido', desc: 'Alta taxa de atualização de tela e muita memória para rodar tudo sem travar.' },
+      { nome: 'Linha Motorola Moto G', preco: 'No Boleto até 18x', tag: 'Clássico', desc: 'Sistema limpo, som estéreo e confiabilidade Motorola lacrado na caixa.' }
+    ];
+
+    function renderCelulares() {
+      const grid = document.getElementById('gridCelulares');
+      grid.innerHTML = aparelhos.map(item => `
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:border-tech-green transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700">${item.tag}</span>
+              <span class="text-xs font-extrabold text-slate-900 bg-amber-100 px-2.5 py-1 rounded-lg">${item.preco}</span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-slate-900">${item.nome}</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">${item.desc}</p>
+          </div>
+          <button type="button" onclick="selecionarModelo('${item.nome}')" class="mt-5 w-full bg-slate-900 hover:bg-tech-green hover:text-slate-950 text-white text-xs font-extrabold py-3 rounded-xl transition">
+            Simular Parcelas →
+          </button>
+        </div>
+      `).join('');
+    }
+
+    function selecionarModelo(modelo) {
+      document.getElementById('boletoModelo').value = modelo;
+      document.getElementById('boleto').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function enviarContato(mensagem) {
+      if (WHATSAPP_MRCELL) {
+        window.open(`https://wa.me/${WHATSAPP_MRCELL}?text=${encodeURIComponent(mensagem)}`, '_blank', 'noopener');
+      } else {
+        if (navigator.clipboard) navigator.clipboard.writeText(mensagem).catch(() => {});
+        alert('Mensagem pronta copiada! Vamos abrir o Instagram oficial @mr.cell_alagoinhas para você colar e enviar no Direct.');
+        window.open(INSTAGRAM_MRCELL, '_blank', 'noopener');
+      }
+    }
+
+    document.getElementById('formBoleto').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nome = document.getElementById('boletoNome').value.trim();
+      const modelo = document.getElementById('boletoModelo').value.trim();
+      const forma = document.getElementById('boletoForma').value;
+
+      const msg = `Olá, *MR Cell Alagoinhas*! Gostaria de cotar um aparelho:\n\n👤 *Nome:* ${nome}\n📱 *Modelo:* ${modelo}\n💳 *Pagamento:* ${forma}`;
+      enviarContato(msg);
+    });
+
+    document.getElementById('formReparo').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const aparelho = document.getElementById('reparoAparelho').value.trim();
+      const defeito = document.getElementById('reparoDefeito').value;
+      const nome = document.getElementById('reparoNome').value.trim();
+
+      const msg = `Olá, *MR Cell Alagoinhas*! Preciso de um orçamento de assistência técnica:\n\n👤 *Nome:* ${nome}\n📱 *Aparelho:* ${aparelho}\n🛠️ *Problema:* ${defeito}`;
+      enviarContato(msg);
+    });
+
+    renderCelulares();
+  </script>
+</body>
+</html>
